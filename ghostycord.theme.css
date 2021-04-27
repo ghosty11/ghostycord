@@ -1,11 +1,16 @@
 /**
  * @name Ghostycord
- * @version 1.0.0
- * @description A fully black BetterDiscord theme for all your OLED needs
+ * @version 1.0.1a
+ * @description A fully black BetterDiscord theme for all your OLED needs. Normal avatars.
  * @author ghosty11#1893
 */
 
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css);
+/*-------------------------------------*/
+
+@import url("https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css");
+
+/*-------------------------------------*/
+
 .typeWindows-1za-n7 {position:relative}
 
 .wordmark-2iDDfm {
