@@ -1,0 +1,174 @@
+/**
+ * @name Ghostycord lamp edition
+ * @version 6.9.6lamp
+ * @description This version is just for fun, dont use
+ * @author ghosty11#1893
+*/
+
+/*-------------------------------------*/
+
+@import url("https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css");
+
+/*-------------------------------------*/
+
+foreignObject {mask: none;}
+.da-avatar {border-radius: 0;}
+foreignObject {mask: none;}
+.avatar-3EQepX {border-radius: 0}
+
+.avatar-1BDn8e {
+  border-radius: 0px;
+  overflow: visible!important;
+}
+
+.typeWindows-1za-n7 {position:relative}
+
+.wordmark-2iDDfm {
+  display:flex;
+  align-items:center;
+  padding:0 6px;
+  height:calc(100% + 4px);
+  top:-4px;
+  width:fit-content;
+  font-size:14px;
+  font-weight:600;
+  font-family: 'Discord';
+}
+
+[href="/store"] {display: none}
+[href="/library"] {display: none}
+
+.wordmark-2iDDfm > svg {display:none}
+
+.wordmark-2iDDfm:after {content:'ghostycord'}
+
+:root {
+  --colorBlack: #FFFFFF;
+  --colorOne: #FFFFFF;
+  --colorTwo: #FAFAFA;
+  --colorTwo2: #F0F0F0;
+  --colorThree:#F5F5F5;
+  --colorFour: #EEEEEE;
+  --colorMention: #faffbb;
+  --colorMention2: #F5DF4D;
+  --colorLink: #1100ff;
+  --colorInt: #FFFFFF;
+  --colorGray: #84898c;
+  --colorBlue: rgb(0, 138, 216);
+  --colorText: #000000;
+}
+
+.theme-dark {
+    --background-primary: var(--colorOne);
+    --background-secondary: var(--colorTwo);
+    --background-secondary-alt: var(--colorTwo2);
+    --background-floating: var(--colorFour);
+    --background-tertiary: var(--colorThree);
+    --background-accent: var(--colorOne);
+    --channeltextarea-background: var(--colorFour);
+    --text-link: var(--colorLink);
+    --interactive-active: var(--colorInt);
+    --background-mentioned: var(--colorMention);
+    --background-mentioned-hover: var(--colorMention2);
+    --background-message-hover: var(--colorThree);
+    --scrollbar-thin-thumb: var(--colorBlack);
+    --scrollbar-thin-track: var(--colorOne);
+    --scrollbar-auto-thumb: var(--colorThree);
+    --scrollbar-auto-track: var(--colorOne);
+    --scrollbar-auto-scrollbar-color-thumb: var(--colorThree);
+    --scrollbar-auto-scrollbar-color-track: var(--colorOne);
+}
+
+.panels-j1Uci_ {background: var(--colorThree)}
+
+.theme-dark .body-3iLsc4{
+background-color: var(--colorOne);
+}
+    
+.theme-dark .userPopout-3XzG_A {
+  background-color: var(--colorOne);
+}    
+    
+.theme-dark .headerNormal-T_seeN,
+
+.theme-dark .bodyInner-245q0L, 
+
+.theme-dark .footer-1fjuF6 {
+  background-color: var(--colorOne);
+}
+    
+.theme-dark .roleName-32vpEy {
+  color: var(--colorInt);
+}
+
+.theme-dark .peopleList-3c4jOR {
+  background-color: var(--colorOne);
+}
+
+.theme-dark .section-2gLsgF {
+  background-color: var(--colorFour);
+}
+
+.theme-dark .queryContainer-RKFJW- {
+  background-color: var(--colorFour);
+}
+
+.theme-dark .resultsGroup-r_nuzN {
+  background-color: var(--colorTwo);
+}
+
+.theme-dark .option-96V44q:after {display: none}
+
+.theme-dark .footer-2gL1pp {
+  background-color: var(--colorTwo);
+}
+
+.theme-dark .modalHeader-19eoYJ {
+  background-color: var(--colorTwo);
+}
+
+.theme-dark .fullscreenOnMobile-1bD22y {
+  background-color: var(--colorTwo);
+}
+
+.theme-dark .uploadModal-2ifh8j {
+  background-color: var(--colorOne); 
+}
+
+.theme-dark .footer-3mqk7D {
+   background-color: var(--colorTwo);
+}
+
+.theme-dark .perksModalContentWrapper-2HU6uL {
+  background-color: var(--colorOne)1;
+}
+
+.theme-dark .auto-Ge5KZx {
+  background-color: var(--colorOne);
+}
+
+.theme-dark .container-UC8Ug1 {
+background-color: var(--colorThree);
+}
+
+.theme-dark .title-3w8xhj,
+.theme-dark .subtitle-Nw1LLR,
+.theme-dark .optionHeader-1-5lcp,
+.theme-dark .text-1FOLJS,
+.theme-dark .footerTitle-2CYZch {
+color: var(--colorInt);
+}
+
+.theme-dark .headerSpotify-zpWxgT {
+  background-color: var(--colorBlue);
+}
+.theme-dark .headerPlaying-j0WQBV {
+  background-color: var(--colorGray)
+}
+
+.theme-dark .textArea-12jD-V,
+.theme-dark .title-29uC1r,
+.theme-dark .clickable-1bVtEA,
+.theme-dark .messageContent-2qWWxC {
+    color: var(--colorText);
+}
