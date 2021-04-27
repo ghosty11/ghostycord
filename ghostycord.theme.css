@@ -49,12 +49,12 @@ foreignObject {mask: none;}
   --colorTwo2: #151515;
   --colorThree:#090909;
   --colorFour: #080808;
-  --colorMention: rgb(0, 0, 75);
-  --colorMention2: rgb(0, 0, 25);
-  --colorLink: rgb(0, 190, 255);
+  --colorMention: #00004b;
+  --colorMention2: #000019;
+  --colorLink: #00beff;
   --colorInt: #FFFFFF;
   --colorGray: #84898c;
-  --colorBlue: rgb(0, 138, 216);
+  --colorBlue: #008ad8;
   --colorOtherGray: #B9BBBE;
 }
 
@@ -197,4 +197,8 @@ color: var(--colorInt);
 
 .theme-dark .mentioned-xhSam7:before {
   display: none;
+}
+
+.theme-dark .message-2qRu38 {
+  background-color: var(--colorOne);
 }
