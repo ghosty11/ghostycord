@@ -1,7 +1,7 @@
 /**
- * @name Ghostycord square
- * @version 1.0.1b
- * @description A fully black BetterDiscord theme for all your OLED needs. Square avatars edition
+ * @name Ghostycord normal
+ * @version 1.0.1a
+ * @description A fully black BetterDiscord theme for all your OLED needs. Normal avatars.
  * @author ghosty11#1893
 */
 
@@ -10,16 +10,6 @@
 @import url("https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css");
 
 /*-------------------------------------*/
-
-foreignObject {mask: none;}
-.da-avatar {border-radius: 0;}
-foreignObject {mask: none;}
-.avatar-3EQepX {border-radius: 0}
-
-.avatar-1BDn8e {
-  border-radius: 0px;
-  overflow: visible!important;
-}
 
 .typeWindows-1za-n7 {position:relative}
 
