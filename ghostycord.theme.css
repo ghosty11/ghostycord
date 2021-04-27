@@ -194,3 +194,7 @@ color: var(--colorInt);
 .theme-dark .contents-18-Yxp {
   color: var(--colorOtherGray);
 }
+
+.theme-dark .mentioned-xhSam7:before {
+  display: none;
+}
