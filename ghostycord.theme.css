@@ -49,12 +49,13 @@ foreignObject {mask: none;}
   --colorTwo2: #151515;
   --colorThree:#090909;
   --colorFour: #080808;
-  --colorMention: #090909;
-  --colorMention2: #151515;
+  --colorMention: rgb(30, 30, 5);
+  --colorMention2: rgb(21, 21, 21);
   --colorLink: #FFFFA9;
   --colorInt: #FFFFFF;
   --colorGray: #84898c;
   --colorBlue: rgb(0, 138, 216);
+  --colorOtherGray: #B9BBBE;
 }
 
 .theme-dark {
@@ -188,4 +189,8 @@ color: var(--colorInt);
 
 .theme-dark .topSectionPlaying-1J5E4n {
   background-color: var(--colorGray);
+}
+
+.theme-dark .contents-18-Yxp {
+  color: var(--colorOtherGray);
 }
