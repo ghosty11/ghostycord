@@ -49,9 +49,9 @@ foreignObject {mask: none;}
   --colorTwo2: #151515;
   --colorThree:#090909;
   --colorFour: #080808;
-  --colorMention: rgb(30, 30, 5);
-  --colorMention2: rgb(21, 21, 21);
-  --colorLink: #FFFFA9;
+  --colorMention: rgb(0, 0, 75);
+  --colorMention2: rgb(0, 0, 25);
+  --colorLink: rgb(0, 190, 255);
   --colorInt: #FFFFFF;
   --colorGray: #84898c;
   --colorBlue: rgb(0, 138, 216);
