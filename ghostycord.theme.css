@@ -1,6 +1,6 @@
 /**
  * @name Ghostycord
- * @version 1.1.0
+ * @version 1.1.1
  * @description A fully black BetterDiscord theme for all your OLED needs. Square avatars.
  * @author ghosty11#1893
 */
@@ -49,8 +49,8 @@ foreignObject {mask: none;}
   --colorTwo2: #151515;
   --colorThree:#090909;
   --colorFour: #080808;
-  --colorMention: #200000;
-  --colorMention2: #500000;
+  --colorMention: #090909;
+  --colorMention2: #151515;
   --colorLink: #FFFFA9;
   --colorInt: #FFFFFF;
   --colorGray: #84898c;
@@ -163,4 +163,29 @@ color: var(--colorInt);
 }
 .theme-dark .headerPlaying-j0WQBV {
   background-color: var(--colorGray)
+}
+
+.theme-dark .headerSpotify-zpWxgT {
+  background-color: var(--colorBlue);
+}
+
+.theme-dark .headerSpotify-zpWxgT h3 {
+  color: var(--colorBlue);
+}
+
+.theme-dark .headerPlaying-j0WQBV {
+  background-color: #202225;
+  color: var(--colorGray);
+}
+
+.theme-dark .headerPlaying-j0WQBV h3 {
+  color: var(--colorGray);
+}
+
+.theme-dark .topSectionSpotify-1lI0-P {
+  background-color: var(--colorBlue);
+}
+
+.theme-dark .topSectionPlaying-1J5E4n {
+  background-color: var(--colorGray);
 }
